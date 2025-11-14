@@ -1,7 +1,7 @@
 def calculator(expression):
     allowed = '+-/*'
     if not any(sign in expression for sign in allowed):
-        raise ValueError(f'Выражение должно содержать хотя бы один из знаков {allowed}!')
+        raise ValueError('Выражение должно содержать хотя бы один из знаков (+-/*)!')
     for sign in allowed:
         if sign in expression:
             try:
