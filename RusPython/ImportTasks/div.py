@@ -1,2 +1,5 @@
 def division(a, b):
-    return a / b
+    try:
+        return int(a / b)
+    except TypeError as e:
+        print(e)
