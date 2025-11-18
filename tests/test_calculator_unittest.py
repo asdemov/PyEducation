@@ -10,7 +10,7 @@ class Calculator(TestCase):
         self.assertEqual(calc('2-2'), 0)
 
     def test_div(self):
-        self.assertEqual(calc('3/3'), 1)
+        self.assertEqual(calc('5/2'), 2.5)
 
     def test_mul(self):
         self.assertEqual(calc('2*4'), 8)
