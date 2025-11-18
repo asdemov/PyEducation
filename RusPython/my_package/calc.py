@@ -15,7 +15,3 @@ def calculator(expression):
                 }[sign](left, right)
             except (ValueError, TypeError):
                 raise ValueError('Выражение должно содержать 2 целых числа и 1 знак!')
-
-
-if __name__ == '__main__':
-    print(calculator('2 * 2'))
